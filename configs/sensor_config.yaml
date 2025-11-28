@@ -36,7 +36,3 @@ visualization:
   show_3d_bbox: true        # 3D 바운딩박스 표시 여부
   show_bbox_labels: true    # 바운딩박스 라벨 표시 여부
   bbox_line_radius: 0.003   # 바운딩박스 라인 두께
-
-# Model paths
-models:
-  disparity_weights_path: "models/model_best_bp2.pth"

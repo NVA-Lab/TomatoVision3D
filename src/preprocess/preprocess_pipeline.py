@@ -213,7 +213,7 @@ class PreprocessPipeline:
         # Disparity Estimator (FoundationStereo)
         self.disparity_estimator = None
         if self.args.depth_source in ["foundation", "both"]:
-            weights_path = "models/foundation_stereo_scripted.pt"
+            weights_path = "weight/foundation_stereo_scripted.pt"
             self.logger.info(f"Loading stereo depth model from: {weights_path}")
             self.disparity_estimator = DisparityEstimator(weights_path=weights_path)
         
