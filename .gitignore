@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # weight 폴더와 가중치 파일들은 git에 포함
-# .pt, .pth 파일은 weight/ 폴더 안에서 허용됨
+# .pt, .pth 파일은 Git LFS로 관리
 
 # Experiment results (large files)
 yolo_exp/
